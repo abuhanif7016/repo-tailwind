@@ -1,1 +1,93 @@
- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <style>
+    body {
+      font-family: "Sen", sans-serif;
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body class="bg-[#0A192F] text-white">
+
+  <!-- Header Section -->
+  <header class="relative">
+    <nav class="bg-[#0A192F]/80 backdrop-blur-md p-4 fixed top-0 left-0 w-full z-50">
+      <div class="flex flex-col lg:flex-row text-white lg:justify-between lg:items-center w-11/12 mx-auto">
+        <h1 class="text-3xl font-bold text-center lg:text-left">A H</h1>
+        <ul class="hidden lg:flex gap-7 text-lg">
+          <li><a href="#home" class="hover:text-gray-300">Home</a></li>
+          <li><a href="#about" class="hover:text-gray-300">About</a></li>
+          <li><a href="#skills" class="hover:text-gray-300">Skill</a></li>
+          <li><a href="#education" class="hover:text-gray-300">Education</a></li>
+          <li><a href="#contact" class="hover:text-gray-300">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Banner Section -->
+    <section class="bg-gradient-to-r from-[#0A192F] to-[#112240] pt-24 lg:pt-40">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center w-11/12 mx-auto">
+
+        <!-- Right Image -->
+        <div class="flex justify-center relative order-1 lg:order-2">
+          <img src="images/Polygon (1).png" alt="Banner Shape" >
+          <img src="images/banner.png" alt="Profile" class="absolute">
+        </div>
+
+        <!-- Left Text -->
+        <div class="flex flex-col gap-5 text-center lg:text-left order-2 lg:order-1">
+          <h1 class="text-xl">Hello It's Me</h1>
+          <h1 class="text-4xl font-bold">Abu Hanif</h1>
+          <h1 class="text-2xl">And I am <span class="text-[#0080FF] font-bold">Frontend Developer</span></h1>
+          <p class="text-gray-300 max-w-xl mx-auto lg:mx-0">
+            Frontend Developer | MERN Stack Enthusiast. Skilled in HTML, CSS, JavaScript (React...) — still learning and growing.
+          </p>
+
+          <!-- Social Icons -->
+          <div class="flex justify-center lg:justify-start gap-4 text-[#0080FF] text-2xl">
+            <a href="#"><i class="fa-brands fa-github hover:text-white"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram hover:text-white"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin hover:text-white"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter hover:text-white"></i></a>
+          </div>
+
+          <!-- Resume Button -->
+          <div>
+            <a href="" download
+               class="inline-block bg-[#0080FF] text-white font-semibold rounded-md px-6 py-3 shadow-lg shadow-[#0080FF]/50 hover:bg-[#0066CC] transition">
+              Download Resume
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <!-- Dummy Sections for Navigation
+  <section id="about" class="min-h-screen flex items-center justify-center bg-[#112240]">
+    <h2 class="text-3xl font-bold">About Me</h2>
+  </section>
+
+  <section id="skills" class="min-h-screen flex items-center justify-center bg-[#0A192F]">
+    <h2 class="text-3xl font-bold">Skills</h2>
+  </section>
+
+  <section id="education" class="min-h-screen flex items-center justify-center bg-[#112240]">
+    <h2 class="text-3xl font-bold">Education</h2>
+  </section>
+
+  <section id="contact" class="min-h-screen flex items-center justify-center bg-[#0A192F]">
+    <h2 class="text-3xl font-bold">Contact</h2>
+  </section> -->
+
+</body>
+</html>
