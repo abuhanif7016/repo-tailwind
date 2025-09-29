@@ -108,51 +108,63 @@
 
     <!-- My sklil section  -->
 
-    <section class="bg-gradient-to-r from-[#0A192F] to-[#112240] pt-24 lg:pt-30">
-      <div>
-        <h1>My <span>Skills</span></h1>
-        <div>
-          <h3 class="text-xl font-semibold">MERN Stack | Frontend Developer</h3>
-          <p class="text-gray-200 leading-relaxed">
+    <section class="bg-gradient-to-r pt-24 lg:pt-20">
+      <div class="grid justify-center gap-9 pb-9">
+        <h1 class="text-4xl text-center font-semibold">My <span class="text-[#0080FF]">Skills</span></h1>
+        <div class="bg-black/35 shadow-lg shadow-[#808080]/20 transition rounded w-60 h-85 text-center font-sans text-sm pt-1">
+          <a href="" class="text-[#0080FF]"><i class="fa-solid fa-paintbrush"></i></a>
+          <h3 class="text-xl font-semibold pt-5">MERN Stack | Frontend Developer</h3>
+          <p class="text-gray-200 text-xs pt-6 leading-relaxed">
             I am Abu Hanif, a dedicated Frontend Developer and 
             MERN Stack Enthusiast with a strong focus on building modern, responsive, 
             and user-friendly web applications. With hands-on experience in 
             HTML, CSS, JavaScript, React.js, Node.js, Express.js, and MongoDB, 
             I enjoy turning ideas into functional, high-quality digital solutions.
            </p>
+           <button 
+              class="bg-[#0080FF] text-white rounded font-semibold hover:bg-[#0066cc] transition lg:col-span-2 mt-4 w-25 h-8 text-sm">
+              Read More
+           </button>
         </div>
       </div>
     </section>
 
+   <section class="bg-[#182832] backdrop-blur-md min-h-screen">
+      <div class="w-11/12 mx-auto text-white py-10 lg:py-32 space-y-10 ">
 
+        <!-- Heading -->
+       <h1 class="text-3xl font-bold text-center">
+         Contact <span class="text-[#0080FF]">Me</span>
+        </h1>
 
+    <!-- Contact Form -->
+    <form class="grid grid-cols-1 lg:grid-cols-2 gap-6 max-w-3xl mx-auto">
+      
+      <!-- Name -->
+      <input type="text" placeholder="Enter your name" 
+             class="border border-[#0080FF] px-4 py-2 rounded w-full bg-transparent focus:outline-none focus:ring-2 focus:ring-[#0080FF] lg:col-span-2">
 
+      <!-- Email -->
+      <input type="email" placeholder="Enter your email" 
+             class=" border border-[#0080FF] px-4 py-2 rounded w-full bg-transparent focus:outline-none focus:ring-2 focus:ring-[#0080FF] lg:col-span-2">
 
+      <!-- Subject -->
+      <input type="text" placeholder="Subject Name" 
+             class="border border-[#0080FF] px-4 py-2 rounded w-full bg-transparent focus:outline-none focus:ring-2 focus:ring-[#0080FF] lg:col-span-2">
 
+      <!-- Message -->
+      <textarea placeholder="Write your message" rows="5"
+                class="border border-[#0080FF] resize-none px-4 py-2 rounded w-full bg-transparent focus:outline-none focus:ring-2 focus:ring-[#0080FF] lg:col-span-2"></textarea>
 
+      <!-- Submit Button -->
+      <button type="submit" 
+              class="bg-[#0080FF] text-white px-6 py-3 rounded font-semibold hover:bg-[#0066cc] transition lg:col-span-2">
+        Send Message
+      </button>
+    </form>
+  </div>
+</section>
 
-   <section class="bg-[#25282A] backdrop-blur-md min-h-screen">
-      <div class="w-11/12 mx-auto text-white py-5 1g:py-32 space-y-6">
-
-          <h1 class="text-3xl font-bold text-center">Contact <span class="text-[#0080FF]">Me</span></h1>
-          <form class="grid grid-cols-1 lg:grid-cols-2 gap-6 max-w-3xl">
-            <!-- < -- name -->
-             <input type="text" placeholder="Enter your name" class="border border-[#0080FF] px-4 py-2 rounded w-full">
-
-            <!-- Enail -->
-             <input type="text" placeholder="Enter your email" class="border border-[#0080FF] px-4 py-2 rounded w-full
-             1g:col-span-2">
-
-            <!-- Subject -->
-             <input type="text" placeholder="Subject Name" class="border border-[#0080FF] px-4 py-2 rounded w-full
-             1g:col-span-2">
-
-              <!-- Message -->
-            <textarea placeholder="Write message" class="border border-[#0080FF] resize-none px-4 py-2 rounded w-full 1g:col-span-2" rows="5">
-            
-        </form>
-      </div>
-   </section>
 
   </header>
 </body>
